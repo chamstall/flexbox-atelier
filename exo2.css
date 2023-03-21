@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    
+}
+#one{
+    background-color:skyblue;
+}
+h1{
+    text-align: center;
+    height: 30%;
+    background-color: lightgreen;
+    
+    flex: 1;
+    margin: 0px;
+}
+.container{
+    flex: 5;
+    display: flex;
+    width: 100%;
+    
+
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.haut{
+    background-color: green;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+.bas{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+    background-color: blueviolet;
+}
+
+
+
+.contenu{
+    flex:10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:yellow;
+}
